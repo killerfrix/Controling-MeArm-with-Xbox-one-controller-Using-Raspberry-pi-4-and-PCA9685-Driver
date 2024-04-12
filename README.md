@@ -60,4 +60,5 @@ source .venv/bin/activate
 ```
 ㅤd. required installs
 
-      - pip install evdev
+      pip install evdev
+      pip install adafruit-circuitpython-servokit
