@@ -58,5 +58,5 @@
       python3 -m venv .venv
       source .venv/bin/activate
 ㅤ
-d. installs
+ㅤd. installs
       -
