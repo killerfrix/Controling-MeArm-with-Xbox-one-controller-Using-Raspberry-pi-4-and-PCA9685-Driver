@@ -3,3 +3,11 @@ By using the provided code or following the instructions, you acknowledge and ac
 
 # Materials
 - MeArm
+- 4 SG90 Servo motors of 180 degrees
+- PCA9685 16-channel 12-Bit PWM Driver
+- Raspberry Pi 4
+- SD card (at least 8gb)
+- Xbox one controller
+- 2 dupont type cables (male to male)
+- 6 dupont type cables (female to female)
+- Ethernet cable
