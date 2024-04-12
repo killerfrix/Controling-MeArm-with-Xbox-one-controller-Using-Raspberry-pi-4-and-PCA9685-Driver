@@ -75,7 +75,7 @@ nano servoController.py
    Copy and paste the code, Press CTRL + X, Press y, and Enter
 
 9.	Environment configuration
-10.	
+    
     a. Disconnect any kind of input cables to raspberry pi (like mouse or keyboard), otherwise you will have to change the code
    	
   	   i.	This section of the code selects the input, in this case by default when we connect xbox controller the event is 4, but it will change depending if there is an input
