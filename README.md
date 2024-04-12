@@ -33,7 +33,7 @@
    
    h.	GND (any) to GND (using female to female and the connecting male to male cables in blue part)
 
-Connect Servos with PCA9685 Driver
+3. Connect Servos with PCA9685 Driver
 
    a.	Base servo to 0 port in driver (brown cable and red cable are GND and V)
 
@@ -43,7 +43,7 @@ Connect Servos with PCA9685 Driver
 
    d.	Claw servo to 3
 
-9.	Environment configuration
+4.	Environment configuration
     
     a. Disconnect any kind of input cables to raspberry pi (like mouse or keyboard), otherwise you will have to change the code
    	
