@@ -55,9 +55,9 @@
 ㅤ
 ㅤc. create virtual enviroment
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+python3 -m venv .venv
+source .venv/bin/activate
+
 ```
 ㅤd. required installs
 ㅤ
