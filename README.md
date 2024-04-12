@@ -15,5 +15,5 @@ By using the provided code or following the instructions, you acknowledge and ac
 # Procedure
 1. Build MeArm using the 4 servo motors
 2. Connect Raspberry Pi 4 with PCA9685 Driver
-   -[] Check Raspberry Pi 4 GPIO and the 40-pin header
-   -[] s
+   - [] Check Raspberry Pi 4 GPIO and the 40-pin header
+   - [] s
