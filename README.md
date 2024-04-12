@@ -132,7 +132,7 @@ In this case the Raspberry Pi among with the Adafruit PCA9685 Driver help us to 
 
 **Duty cycle**
 
-$` D = (angle / 180.0)
+$` D = (angle / 180.0) `$
 
 
 
