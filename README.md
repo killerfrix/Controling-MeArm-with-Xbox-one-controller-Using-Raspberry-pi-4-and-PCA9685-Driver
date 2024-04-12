@@ -62,8 +62,8 @@
 
 ㅤㅤrequired installs
 
-         pip install evdev
-         pip install adafruit-circuitpython-servokit
+       pip install evdev
+       pip install adafruit-circuitpython-servokit
 
 ㅤㅤActivate IC2 option
 
