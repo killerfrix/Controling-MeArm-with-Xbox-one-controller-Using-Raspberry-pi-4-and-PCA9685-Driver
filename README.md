@@ -53,19 +53,20 @@
    > controllerInput = evdev.InputDevice("/dev/input/event4")
 >ㅤ
 
-ㅤㅤCreate virtual enviroment
+ㅤㅤCreate virtual enviroment:
 
 ```
    python3 -m venv .venv
    source .venv/bin/activate
 ```
 
-ㅤㅤrequired installs
+ㅤㅤrequired installs:
 
 ```
-    pip install evdev
-    pip install adafruit-circuitpython-servokit
+   pip install evdev
+   pip install adafruit-circuitpython-servokit
 ```
-ㅤㅤActivate IC2 option
-
-          sudo raspi-config
+ㅤㅤActivate IC2 option:
+```
+   sudo raspi-config
+```
