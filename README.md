@@ -134,5 +134,11 @@ In this case the Raspberry Pi among with the Adafruit PCA9685 Driver help us to 
 
 $` D = (angle / 180.0) `$
 
+Internally when a servo is changed to 90 degrees, we make a pulse of 0 to 5 volts in a determined time, for 90 degrees a pulse every 0.5ms so that the servo will remain static in that point, and we will not be able to move it manually because electricity is being sent every time, ensuring that it remains in 90 degrees.
+
+In the next code we can see that servo.fraction = duty_cycle is the one in charge of giving a pulse according to duty_cycle
+
+
+
 
 
