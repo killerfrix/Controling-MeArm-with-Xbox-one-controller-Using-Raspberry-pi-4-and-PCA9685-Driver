@@ -29,6 +29,7 @@
    
    f.	GPIO 3 (SCL) to SCL
    
-   g.	5V power to V+ (using female to female and the connecting male to male cables in blue part)   
+   g.	5V power to V+ (using female to female and the connecting male to male cables in blue part)
+   
    h.	GND (any) to GND (using female to female and the connecting male to male cables in blue part)
    
