@@ -43,7 +43,8 @@
 
    d.	Claw servo to 3
 
-4.	Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
+4. Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
+
    
    a. Edit settings
    
