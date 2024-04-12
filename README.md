@@ -65,15 +65,15 @@
 8.	Create your folder to save the python file code
 
       
-      ```
-      cd Desktop
-      mkdir servoControlling
-      cd servoControlling
-      touch servoController.py
-      nano servoController.py
-      ```
+```
+   cd Desktop
+   mkdir servoControlling
+   cd servoControlling
+   touch servoController.py
+   nano servoController.py
+```
 
-      Copy and paste the code, Press CTRL + X, Press y, and Enter
+            Copy and paste the code, Press CTRL + X, Press y, and Enter
 
 9.	Environment configuration
     
@@ -82,7 +82,7 @@
     b. This section of the code selects the input, in this case by default when we connect xbox controller the event is 4, but it will change depending if there is an input
       
          
-         controllerInput = evdev.InputDevice("/dev/input/event4")
+            controllerInput = evdev.InputDevice("/dev/input/event4")
 
     c.	Installing needed resources
 
