@@ -91,11 +91,11 @@
 
 ## Initial positions
 
-current_angle_Base = 90
+Base = 90
 
-current_angle_Claw = 90
+Claw = 90
 
-current_angle_Left_Servo = 90
+Left Servo (the middle part) = 90
 
-current_angle_Right_Servo = 180
+Right Servo (the one that adjust the height) = 180
 
