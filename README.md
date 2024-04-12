@@ -127,5 +127,12 @@ This is what they should look like:
 # Logic behind PWM for controlling servo motors.
 
 A servo motor is an electromechanical device. It has an electronic board that accepts PWM (Pulse Width Modulation) signals and measures its on-time pulse width. The servo motor also has a potentiometer that helps in keeping track of the shaft position.
+
 In this case the Raspberry Pi among with the Adafruit PCA9685 Driver help us to control servos, a servo will move depending on the time in which the pulse is generated (duty cycle), for SG90 servos 0ms would mean 0 degrees, 0.5ms 90 degrees and 1 180 degrees.
+
+**Duty cycle**
+
+$` D = (angle / 180.0)
+
+
 
