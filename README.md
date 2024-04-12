@@ -122,7 +122,7 @@ This is what they should look like:
 
 # Final View of everything
 
-To run Python file 
+To run Python file:
 
 ```
    python3 servoController.py
