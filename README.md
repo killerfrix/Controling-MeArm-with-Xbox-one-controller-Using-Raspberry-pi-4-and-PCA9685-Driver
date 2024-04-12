@@ -34,4 +34,12 @@
    h.	GND (any) to GND (using female to female and the connecting male to male cables in blue part)
 
 3. Connect Servos with PCA9685 Driver
+
+   a.	Base servo to 0 port in driver (brown cable and red cable are GND and V)
+
+   b.	Right servo to 1 (the one that controls the height)
+
+   c.	Left servo to 2 (The one that controls Middle part)
+
+   d.	Claw servo to 3
    
