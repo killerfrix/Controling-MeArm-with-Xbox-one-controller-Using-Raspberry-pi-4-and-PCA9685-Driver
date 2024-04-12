@@ -89,4 +89,5 @@
    pair [Xbox Mac Adress]
 ```
 
-   
+## Initial positions
+
