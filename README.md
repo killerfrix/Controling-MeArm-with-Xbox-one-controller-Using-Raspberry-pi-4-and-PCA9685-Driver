@@ -32,4 +32,6 @@
    g.	5V power to V+ (using female to female and the connecting male to male cables in blue part)
    
    h.	GND (any) to GND (using female to female and the connecting male to male cables in blue part)
+
+3. Connect Servos with PCA9685 Driver
    
