@@ -56,7 +56,9 @@
 6.	Open cmd from Windows and type ssh (raspi user)@(local raspi ip)
 
    Example: ssh frix@192.168.0.115
+   
    Then it will ask you for the password
+   
    Raspi ip can be seen from Modem manager
 
 
