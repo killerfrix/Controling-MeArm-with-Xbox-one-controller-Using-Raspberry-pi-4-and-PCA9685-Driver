@@ -74,4 +74,12 @@
 ```
 
 ㅤㅤgo to Interface and then activate IC2
-ㅤㅤㅤ
+
+5. Connect your xbox controller to Raspberry Pi Bluetooth
+```
+   bluetoothctl
+```
+```
+   power on
+```
+   
