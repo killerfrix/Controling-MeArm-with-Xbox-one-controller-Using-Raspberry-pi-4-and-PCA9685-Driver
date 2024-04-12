@@ -45,12 +45,12 @@
 
 4.	Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
    
-   a.	Edit settings
-
+   a. Edit settings
+   
    b.	Set username and password (remember them)
-
+   
    c.	In services enable ssh and select use password authentication
-
+   
 5.	Connect Raspberry Pi with ethernet cable to your modem and turn it on
 6.	
 
