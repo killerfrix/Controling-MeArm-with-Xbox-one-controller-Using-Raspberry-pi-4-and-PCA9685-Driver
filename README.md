@@ -68,6 +68,6 @@ source .venv/bin/activate
 ㅤㅤActivate IC2 option
 
 ㅤ
-    type:
+   ㅤ type:
 
           sudo raspi-config
