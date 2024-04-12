@@ -42,4 +42,16 @@
    c.	Left servo to 2 (The one that controls Middle part)
 
    d.	Claw servo to 3
+
+4.	Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
+   
+   a.	Edit settings
+
+   b.	Set username and password (remember them)
+
+   c.	In services enable ssh and select use password authentication
+
+5.	Connect Raspberry Pi with ethernet cable to your modem and turn it on
+6.	
+
    
