@@ -53,14 +53,14 @@
    > controllerInput = evdev.InputDevice("/dev/input/event4")
 >ㅤ
 
-ㅤㅤcreate virtual enviroment
+ㅤㅤCreate virtual enviroment
    
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-required installs
+ㅤㅤrequired installs
 
       pip install evdev
       pip install adafruit-circuitpython-servokit
