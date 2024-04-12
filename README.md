@@ -63,3 +63,10 @@
 
 7.	Once we are connected to Raspberry Pi update it
 8.	Create your folder to save the python file code
+
+   
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
