@@ -59,4 +59,5 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 ㅤd. required installs
+ㅤ
       - pip install evdev
