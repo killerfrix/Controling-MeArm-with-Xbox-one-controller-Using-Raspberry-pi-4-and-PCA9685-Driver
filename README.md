@@ -83,5 +83,10 @@
       
          
          controllerInput = evdev.InputDevice("/dev/input/event4")
-         
+
+    c.	Installing needed resources
+
+      pip install evdev
+      evdev (this help us to receive inputs from controller)
+
       
