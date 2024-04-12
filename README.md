@@ -104,4 +104,8 @@ This is what they should look like:
 ![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver-For-Dummies/assets/97371595/49b45391-ec87-40dc-81fe-18f47d81885e)
 ![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver-For-Dummies/assets/97371595/9fa490ef-87d7-4b17-acb4-503e4a70b1e6)
 
+ > [!CAUTION]
+ > Make sure that MeArm pieces are not connected to servo motors before running program
+ > Otherwise MeArm might break or SERVO MOTORS COULD GET BURNED
+
 
