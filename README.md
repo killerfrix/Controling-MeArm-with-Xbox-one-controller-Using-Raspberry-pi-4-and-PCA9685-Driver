@@ -11,3 +11,8 @@ By using the provided code or following the instructions, you acknowledge and ac
 - 2 dupont type cables (male to male)
 - 6 dupont type cables (female to female)
 - Ethernet cable
+
+# Procedure
+1. Build MeArm using the 4 servo motors
+2. Connect Raspberry Pi 4 with PCA9685 Driver
+3. 
