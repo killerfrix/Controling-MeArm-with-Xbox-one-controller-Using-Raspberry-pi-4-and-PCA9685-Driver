@@ -60,7 +60,6 @@
       Then it will ask you for the password
       
       Raspi ip can be seen from Modem manager
-   
 
-
-   
+7.	Once we are connected to Raspberry Pi update it
+8.	Create your folder to save the python file code
