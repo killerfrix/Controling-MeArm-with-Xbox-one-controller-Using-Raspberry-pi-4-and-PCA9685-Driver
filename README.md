@@ -54,12 +54,11 @@
 >
 ㅤ
 ㅤc. create virtual enviroment
-
-      ```
-         python3 -m venv .venv
-         source .venv/bin/activate
-ㅤ    ```
-
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 ㅤd. required installs
 ㅤ
       - pip install evdev
