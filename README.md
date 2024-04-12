@@ -106,6 +106,7 @@ This is what they should look like:
 
  > [!CAUTION]
  > Make sure that MeArm pieces are not connected to servo motors before running program
+ > 
  > Otherwise MeArm might break or SERVO MOTORS COULD GET BURNED
 
 
