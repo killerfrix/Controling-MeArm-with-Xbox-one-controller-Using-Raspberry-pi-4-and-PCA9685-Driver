@@ -43,39 +43,6 @@ Connect Servos with PCA9685 Driver
 
    d.	Claw servo to 3
 
-Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
-
-   
-   a. Edit settings
-   
-   b.	Set username and password (remember them)
-   
-   c.	In services enable ssh and select use password authentication
-   
-Connect Raspberry Pi with ethernet cable to your modem and turn it on
-Open cmd from Windows and type ssh (raspi user)@(local raspi ip)
-
-      Example: ssh frix@192.168.0.115
-      
-      Then it will ask you for the password
-      
-      Raspi ip can be seen from Modem manager
-
-Once we are connected to Raspberry Pi update it
-Create your folder to save the python file code
-
-      
-```
-   cd Desktop
-   mkdir servoControlling
-   cd servoControlling
-   touch servoController.py
-   nano servoController.py
-
-```
-
-   Copy and paste the code, Press CTRL + X, Press y, and Enter
-
 9.	Environment configuration
     
     a. Disconnect any kind of input cables to raspberry pi (like mouse or keyboard), otherwise you will have to change the code
