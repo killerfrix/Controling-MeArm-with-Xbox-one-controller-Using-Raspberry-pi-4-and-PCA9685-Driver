@@ -32,10 +32,10 @@ def control_servo_with_dpad(servo, current_angle, dpad_value):
     return current_angle
 
 # Initialize current angles
-current_angle_22 = 90
-current_angle_18 = 90
-current_angle_40 = 90
-current_angle_16 = 180
+current_angle_Base = 90
+current_angle_Claw = 90
+current_angle_Left_Servo = 90
+current_angle_Right_Servo = 180
 
 controllerInput = evdev.InputDevice("/dev/input/event4")
 
@@ -64,48 +64,48 @@ for event in controllerInput.read_loop():
     if event.code == BTN_TL_BUTTON_CODE:  # BTL button pressed
         if event.value == 1:  # Button pressed and current angle is not 0
             print("BTL button pressed")
-            current_angle_22 = control_servo_incremental(kit.servo[0], current_angle_22, ANGLE_STEP)
+            current_angle_Base = control_servo_incremental(kit.servo[0], current_angle_Base, ANGLE_STEP)
             if is_recording:
-                if current_angle_22 != 0 and current_angle_22 != 180:  # Check if current angle is not 0 before appending
-                    recorded_angles.append((recorded_angle_counter, "BTN_TL", current_angle_22))
+                if current_angle_Base != 0 and current_angle_Base != 180:  # Check if current angle is not 0 before appending
+                    recorded_angles.append((recorded_angle_counter, "BTN_TL", current_angle_Base))
                     recorded_angle_counter += 1
     elif event.code == BTN_TR_BUTTON_CODE:  # BRG button pressed
         if event.value == 1 :  # Button pressed and current angle is not 180
             print("BRG button pressed")
-            current_angle_22 = control_servo_incremental(kit.servo[0], current_angle_22, -ANGLE_STEP)
+            current_angle_Base = control_servo_incremental(kit.servo[0], current_angle_Base, -ANGLE_STEP)
             if is_recording:
-                if current_angle_22 != 0 and current_angle_22 != 180:  # Check if current angle is not 180 before appending
-                    recorded_angles.append((recorded_angle_counter, "BTN_TR", current_angle_22))
+                if current_angle_Base != 0 and current_angle_Base != 180:  # Check if current angle is not 180 before appending
+                    recorded_angles.append((recorded_angle_counter, "BTN_TR", current_angle_Base))
                     recorded_angle_counter += 1
     elif event.code == X_BUTTON_CODE:  # X button pressed
         if event.value == 1 :  # Button pressed and current angle is not 0
             print("X button pressed")
-            current_angle_18 = control_servo_incremental(kit.servo[3], current_angle_18, -ANGLE_STEP)
+            current_angle_Claw = control_servo_incremental(kit.servo[3], current_angle_Claw, -ANGLE_STEP)
             if is_recording:
-                if current_angle_18 != 0 and current_angle_18 != 180:  # Check if current angle is not 0 before appending
-                    recorded_angles.append((recorded_angle_counter, "X_BUTTON", current_angle_18))
+                if current_angle_Claw != 0 and current_angle_Claw != 180:  # Check if current angle is not 0 before appending
+                    recorded_angles.append((recorded_angle_counter, "X_BUTTON", current_angle_Claw))
                     recorded_angle_counter += 1
     elif event.code == B_BUTTON_CODE:  # B button pressed
         if event.value == 1 :  # Button pressed and current angle is not 180
             print("B button pressed")
-            current_angle_18 = control_servo_incremental(kit.servo[3], current_angle_18, ANGLE_STEP)
+            current_angle_Claw = control_servo_incremental(kit.servo[3], current_angle_Claw, ANGLE_STEP)
             if is_recording:
-                if current_angle_18 != 0 and current_angle_18 != 180:  # Check if current angle is not 180 before appending
-                    recorded_angles.append((recorded_angle_counter, "B_BUTTON", current_angle_18))
+                if current_angle_Claw != 0 and current_angle_Claw != 180:  # Check if current angle is not 180 before appending
+                    recorded_angles.append((recorded_angle_counter, "B_BUTTON", current_angle_Claw))
                     recorded_angle_counter += 1
     elif event.code == BTN_DPADX_BUTTON_CODE and event.value != 0:  
-        if current_angle_40 != 0 :  # Current angle is not 0 or 180
-            current_angle_40 = control_servo_with_dpad(kit.servo[2], current_angle_40, event.value)
+        if current_angle_Left_Servo != 0 :  # Current angle is not 0 or 180
+            current_angle_Left_Servo = control_servo_with_dpad(kit.servo[2], current_angle_Left_Servo, event.value)
             if is_recording:
-                if current_angle_40 != 0 and current_angle_40 != 180:  # Check if current angle is not 0 or 180 before appending
-                    recorded_angles.append((recorded_angle_counter, "BTN_DPADX", current_angle_40, event.value))
+                if current_angle_Left_Servo != 0 and current_angle_Left_Servo != 180:  # Check if current angle is not 0 or 180 before appending
+                    recorded_angles.append((recorded_angle_counter, "BTN_DPADX", current_angle_Left_Servo, event.value))
                     recorded_angle_counter += 1
     elif event.code == BTN_DPADY_BUTTON_CODE and event.value != 0:  
-        if current_angle_16 != 0 :  # Current angle is not 0 or 180
-            current_angle_16 = control_servo_with_dpad(kit.servo[1], current_angle_16, event.value)
+        if current_angle_Right_Servo != 0 :  # Current angle is not 0 or 180
+            current_angle_Right_Servo = control_servo_with_dpad(kit.servo[1], current_angle_Right_Servo, event.value)
             if is_recording:
-                if current_angle_16 != 0 and current_angle_16 != 180:  # Check if current angle is not 0 or 180 before appending
-                    recorded_angles.append((recorded_angle_counter, "BTN_DPADY", current_angle_16, event.value))
+                if current_angle_Right_Servo != 0 and current_angle_Right_Servo != 180:  # Check if current angle is not 0 or 180 before appending
+                    recorded_angles.append((recorded_angle_counter, "BTN_DPADY", current_angle_Right_Servo, event.value))
                     recorded_angle_counter += 1
 
 
