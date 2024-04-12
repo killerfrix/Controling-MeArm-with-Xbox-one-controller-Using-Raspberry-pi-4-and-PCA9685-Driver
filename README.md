@@ -68,11 +68,10 @@
 ```
 
 ㅤㅤActivate IC2 option
-ㅤㅤ
-   go to Interface and then activate IC2
 
 ```
    sudo raspi-config
 ```
 
+   go to Interface and then activate IC2
 ㅤㅤㅤ
