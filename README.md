@@ -53,10 +53,4 @@
    > controllerInput = evdev.InputDevice("/dev/input/event4")
 >
 ㅤ
-ㅤㅤc. create virtual enviroment:
-  ㅤ
-         python3 -m venv .venv
-         source .venv/bin/activate
-
-
-      
+ㅤㅤc. create virtual enviroment
