@@ -66,6 +66,7 @@ source .venv/bin/activate
       pip install adafruit-circuitpython-servokit
 
 ㅤㅤActivate IC2 option
+
 ㅤ
     type:
 
