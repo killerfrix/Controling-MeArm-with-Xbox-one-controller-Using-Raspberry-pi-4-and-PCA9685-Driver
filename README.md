@@ -117,4 +117,10 @@ This is what they should look like:
 - Directional Pad Horizontally controls middle part (left servo)
 - Directional Pad Vertically controls height (right servo)
 - X and B buttons controls Claw
+- Change view button to start recording user's input (press again to stop recording)
+- Menu button to start reproducing the recorded inputs
+
+# Final View of everything
+
+![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver-For-Dummies/assets/97371595/0ca71747-3050-4781-8e62-1cd3b99ed5cb)
 
