@@ -64,3 +64,8 @@ source .venv/bin/activate
 
       pip install evdev
       pip install adafruit-circuitpython-servokit
+
+ㅤㅤActivate IC2 option
+    type:
+
+          sudo raspi-config
