@@ -17,7 +17,7 @@
 1. Build MeArm using the 4 servo motors
 2. Connect Raspberry Pi 4 with PCA9685 Driver
    a.	Check Raspberry Pi 4 GPIO and the 40-pin header (https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
-   b.	Locate left male ports of Driver (![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver/assets/97371595/b5a445b0-ea3d-49e2-8872-35cafa66cb00)
+   b.	Locate left male ports of Driver ![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver/assets/97371595/b5a445b0-ea3d-49e2-8872-35cafa66cb00
 )
 )
 
