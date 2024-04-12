@@ -152,5 +152,11 @@ In the next code we can see that servo.fraction = duty_cycle is the one in charg
        return new_angle
 ```
 
+Frequency in PWM is very important, it determines how frequently the PWM signal repeats given a period. Frequency affects the precision and smoothness of servo movements the higher the frequency is the servo’s smoothness and precision increases, but not every servo motor works well with very high frequencies, they might overheat.
+In the next code we show the PWM frequency (60hz) which is usually good for servo motors.
 
+```python
+
+   kit = ServoKit(channels=16, address=0x40, frequency=60)  # Set PWM frequency to 60 Hz
+```
 
