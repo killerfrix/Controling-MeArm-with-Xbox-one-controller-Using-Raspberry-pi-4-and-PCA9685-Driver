@@ -54,10 +54,12 @@
 >
 ㅤ
 ㅤc. create virtual enviroment
+
       ```
          python3 -m venv .venv
          source .venv/bin/activate
 ㅤ    ```
+
 ㅤd. required installs
 ㅤ
       - pip install evdev
