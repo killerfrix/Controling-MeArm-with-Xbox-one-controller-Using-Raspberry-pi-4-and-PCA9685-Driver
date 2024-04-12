@@ -82,4 +82,11 @@
 ```
    power on
 ```
+```
+   scan on
+```
+```
+   pair [Xbox Mac Adress]
+```
+
    
