@@ -67,10 +67,11 @@
    pip install adafruit-circuitpython-servokit
 ```
 
-ㅤㅤActivate IC2 option:
+ㅤㅤActivate IC2 option
+   go to Interface and then activate IC2
 
 ```
    sudo raspi-config
 ```
 
-ㅤㅤㅤgo to Interface and then activate IC2
+ㅤㅤㅤ
