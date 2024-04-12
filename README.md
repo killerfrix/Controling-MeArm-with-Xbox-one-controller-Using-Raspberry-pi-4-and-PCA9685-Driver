@@ -14,8 +14,8 @@
 - Ethernet cable
 
 # Procedure
-Build MeArm using the 4 servo motors
-Connect Raspberry Pi 4 with PCA9685 Driver
+1. Build MeArm using the 4 servo motors
+2. Connect Raspberry Pi 4 with PCA9685 Driver
    
    a.	Check Raspberry Pi 4 GPIO and the 40-pin header (https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
    
