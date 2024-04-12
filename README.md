@@ -68,6 +68,7 @@
 ```
 
 ㅤㅤActivate IC2 option
+
    go to Interface and then activate IC2
 
 ```
