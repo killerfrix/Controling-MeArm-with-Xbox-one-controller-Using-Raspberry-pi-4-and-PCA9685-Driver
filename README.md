@@ -70,3 +70,5 @@
 ```
    sudo raspi-config
 ```
+   
+go to Interface and then activate IC2
