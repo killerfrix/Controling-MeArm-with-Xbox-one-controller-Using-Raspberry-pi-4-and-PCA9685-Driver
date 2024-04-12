@@ -14,8 +14,8 @@
 - Ethernet cable
 
 # Procedure
-1. Build MeArm using the 4 servo motors
-2. Connect Raspberry Pi 4 with PCA9685 Driver
+Build MeArm using the 4 servo motors
+Connect Raspberry Pi 4 with PCA9685 Driver
    
    a.	Check Raspberry Pi 4 GPIO and the 40-pin header (https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
    
@@ -33,7 +33,7 @@
    
    h.	GND (any) to GND (using female to female and the connecting male to male cables in blue part)
 
-3. Connect Servos with PCA9685 Driver
+Connect Servos with PCA9685 Driver
 
    a.	Base servo to 0 port in driver (brown cable and red cable are GND and V)
 
@@ -43,7 +43,7 @@
 
    d.	Claw servo to 3
 
-4. Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
+Use Raspberry Pi imager to install Raspberry Pi OS (64 bits)
 
    
    a. Edit settings
@@ -52,8 +52,8 @@
    
    c.	In services enable ssh and select use password authentication
    
-5.	Connect Raspberry Pi with ethernet cable to your modem and turn it on
-6.	Open cmd from Windows and type ssh (raspi user)@(local raspi ip)
+Connect Raspberry Pi with ethernet cable to your modem and turn it on
+Open cmd from Windows and type ssh (raspi user)@(local raspi ip)
 
       Example: ssh frix@192.168.0.115
       
@@ -61,8 +61,8 @@
       
       Raspi ip can be seen from Modem manager
 
-7.	Once we are connected to Raspberry Pi update it
-8.	Create your folder to save the python file code
+Once we are connected to Raspberry Pi update it
+Create your folder to save the python file code
 
       
 ```
