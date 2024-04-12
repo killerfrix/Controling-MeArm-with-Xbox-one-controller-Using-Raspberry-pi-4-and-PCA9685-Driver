@@ -66,10 +66,11 @@
    pip install evdev
    pip install adafruit-circuitpython-servokit
 ```
+
 ㅤㅤActivate IC2 option:
 
 ```
    sudo raspi-config
 ```
-   
-   go to Interface and then activate IC2
+
+ㅤㅤgo to Interface and then activate IC2
