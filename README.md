@@ -67,6 +67,8 @@
    
 ```
 cd Desktop
+mkdir servoControlling
+cd servoControlling
 touch servoController.py
 nano servoController.py
 ```
