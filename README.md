@@ -122,6 +122,12 @@ This is what they should look like:
 
 # Final View of everything
 
+To run Python file 
+
+```
+   python3 servoController.py
+```
+
 ![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver-For-Dummies/assets/97371595/0ca71747-3050-4781-8e62-1cd3b99ed5cb)
 
 # Logic behind PWM for controlling servo motors.
