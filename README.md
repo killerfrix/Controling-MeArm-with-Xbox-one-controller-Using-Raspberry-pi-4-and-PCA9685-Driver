@@ -160,3 +160,4 @@ In the next code we show the PWM frequency (60hz) which is usually good for serv
    kit = ServoKit(channels=16, address=0x40, frequency=60)  # Set PWM frequency to 60 Hz
 ```
 
+# If you want to help improve this code please contact me
