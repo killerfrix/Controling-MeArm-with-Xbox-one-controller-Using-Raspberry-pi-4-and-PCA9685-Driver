@@ -51,7 +51,7 @@
    > This section of the code selects the input, in this case by default when we connect xbox controller the event is 4, but it will change depending if there is an input
    > 
    > controllerInput = evdev.InputDevice("/dev/input/event4")
-> 
+ㅤ
     c. create virtual enviroment:
   	
          python3 -m venv .venv
