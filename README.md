@@ -64,14 +64,14 @@
 7.	Once we are connected to Raspberry Pi update it
 8.	Create your folder to save the python file code
 
-   
-```
-cd Desktop
-mkdir servoControlling
-cd servoControlling
-touch servoController.py
-nano servoController.py
-```
+      
+   ```
+   cd Desktop
+   mkdir servoControlling
+   cd servoControlling
+   touch servoController.py
+   nano servoController.py
+   ```
    Copy and paste the code, Press CTRL + X, Press y, and Enter
 
 9.	Environment configuration
@@ -79,7 +79,8 @@ nano servoController.py
     a. Disconnect any kind of input cables to raspberry pi (like mouse or keyboard), otherwise you will have to change the code
    	
   	   i.	This section of the code selects the input, in this case by default when we connect xbox controller the event is 4, but it will change depending if there is an input
+  	```
 controllerInput = evdev.InputDevice("/dev/input/event4")
-
+   ```
    
       
