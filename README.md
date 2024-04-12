@@ -99,3 +99,6 @@ Left Servo (the middle part) = 90
 
 Right Servo (the one that adjust the height) = 180
 
+This is what they should look like:
+![image](https://github.com/killerfrix/Controling-MeArm-with-Xbox-one-controller-Using-Raspberry-pi-4-and-PCA9685-Driver-For-Dummies/assets/97371595/49b45391-ec87-40dc-81fe-18f47d81885e)
+
