@@ -58,7 +58,7 @@
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-ㅤd. required installs
+ㅤ d. required installs
 
       pip install evdev
       pip install adafruit-circuitpython-servokit
