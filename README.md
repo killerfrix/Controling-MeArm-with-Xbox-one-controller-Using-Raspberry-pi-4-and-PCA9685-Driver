@@ -65,14 +65,14 @@
 8.	Create your folder to save the python file code
 
       
-   ```
-   cd Desktop
-   mkdir servoControlling
-   cd servoControlling
-   touch servoController.py
-   nano servoController.py
-   ```
-   Copy and paste the code, Press CTRL + X, Press y, and Enter
+      ```
+      cd Desktop
+      mkdir servoControlling
+      cd servoControlling
+      touch servoController.py
+      nano servoController.py
+      ```
+      Copy and paste the code, Press CTRL + X, Press y, and Enter
 
 9.	Environment configuration
     
