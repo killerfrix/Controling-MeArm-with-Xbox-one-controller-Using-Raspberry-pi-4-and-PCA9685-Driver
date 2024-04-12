@@ -73,7 +73,11 @@ touch servoController.py
 nano servoController.py
 ```
    Copy and paste the code
+   
    Press CTRL + X
+   
    Press y
+   
    Enter
+   
       
