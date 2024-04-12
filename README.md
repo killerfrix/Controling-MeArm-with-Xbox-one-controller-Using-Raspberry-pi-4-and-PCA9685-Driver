@@ -140,7 +140,7 @@ In the next code we can see that servo.fraction = duty_cycle is the one in charg
 ```python
    # duty cycle for SG90 servo
    def angle_to_duty_cycle(angle):
-       return (angle / 180.0) 
+       return (angle / 180.0)
    
    def control_servo_incremental(servo, current_angle, step):
        new_angle = current_angle + step
