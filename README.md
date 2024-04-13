@@ -5,7 +5,7 @@
 > By using the provided code or following the instructions, you acknowledge and accept full responsibility for any consequences, including but not limited to damage to equipment, injury, or any other issues that may arise.
 
 # Materials
-- MeArm (You can print your own if you have access to a 3d printer here: https://www.thingiverse.com/thing:616239) 
+- MeArm (You can print your own if you have access to a 3d printer https://www.thingiverse.com/thing:616239) 
 - 4 SG90 Servo motors of 180 degrees
 - PCA9685 16-channel 12-Bit PWM Driver
 - Raspberry Pi 4
